@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_Linux_tutore/Day_6 Finishing on linux(part2).md",
+                "file": "5.cybersecurity/Day_1 Reconnaissance(info-gathering)(part1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day_6 Finishing on linux(part2)"
+              "title": "Day_1 Reconnaissance(info-gathering)(part1)"
             }
           }
         ]
@@ -167,11 +167,17 @@
   },
   "active": "bb980e777284c430",
   "lastOpenFiles": [
+    "5.cybersecurity/Day_1 Reconnaissance(info-gathering)(part2).md",
+    "5.cybersecurity/Day_2 Scanning and Enumeration(part1).md",
+    "5.cybersecurity/Day_1 Reconnaissance(info-gathering)(part1).md",
+    "4_Networking_for_Hackers/Day_12 Introduction_to_Networking (part2).md",
+    "Untitled.md",
+    "5.cybersecurity",
+    "3_Bash_Programming/Day_11 Further on Bash (part1).md",
     "3_Bash_Programming/Day_10 Bash_introduction (part2).md",
+    "1_Linux_tutore/Day_6 Finishing on linux(part2).md",
     "3_Bash_Programming/Day_10 Bash_introduction (part1).md",
     "3_Bash_Programming/Day_11 Further on Bash(part2).md",
-    "4_Networking_for_Hackers/Day_12 Introduction_to_Networking (part2).md",
-    "1_Linux_tutore/Day_6 Finishing on linux(part2).md",
     "4_Networking_for_Hackers/Day_12 Introduction_to_Networking (part1).md"
   ]
 }
