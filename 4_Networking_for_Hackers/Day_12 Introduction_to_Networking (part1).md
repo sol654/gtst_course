@@ -85,4 +85,4 @@ EG. 192      .168     .123     .12
 NW part  -  host part
 128 . 2  .  45 . 56
 ```
-- Have 16 bit of space for Hosts.
+- Have 16 bit of space for Hosts
