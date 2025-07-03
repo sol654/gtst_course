@@ -13,3 +13,4 @@ print(language[2])   #prints: python
 capital_city = {'Ethiopia':'AA', 'Italy':'Rome', 'UK':'London'}
 print(capital_city)        #prints: All
 print(capital_city["Ethiopia"])   #prints: AA
+

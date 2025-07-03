@@ -29,6 +29,8 @@ b.
 Based on public resources. from websites, search engines, username, domain...
 - **ONSIT framework**: we can get a collection of informations b/c it has many tools.
 - The site is: www.onsitframework.com
+- FOR **PhoneNumber** and **email** related flags use: https://epieos.com/
+	- **EG**. You can get the airport using the user's email.
 # Shodan
 - Lists exposed IOT tools and their informations.
 - Search engine for the IOT(internet of things).
