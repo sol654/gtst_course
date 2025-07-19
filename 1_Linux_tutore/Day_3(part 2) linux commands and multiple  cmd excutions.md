@@ -1,5 +1,5 @@
 **pwd** :print working directory(current path).   NB, All directories path is start with *root directory (/)*.
-**echo** :display line of text(string) that are passed as argument. echo [string]
+**echo** :display line of text(string) that are passed as argument. `echo [string]`
       eg. *echo "Hello world!"*
       - *output redirecting*: write output to text file using '>' .  
         eg. *echo "My first!" > newfile.txt*     ...so new txt file is created.
@@ -62,7 +62,7 @@
     - select pattern and delete line
     - efficient text manipulation for tasks like *network info gathering and pentesting logs*.
     NB. *log files* -databases(login and signin infos).
-    synthax: *sed [options] 'command' file*
+    synthax: *`sed [options] 'command' file`*
     eg.  *cat temp.txt | sed 's/sol/solace/'*            .....replaces sol with solace.
 - if it finds the word more than 1 time in one line.    use   *'s/sol/solace/g'*     ....replaces all sol with solace not only the first sol.
 	   eg.   *cat log.txt | sed 's/sol/solace/g'*

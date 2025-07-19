@@ -31,18 +31,18 @@ NB. on windows folder managers are premimum not free.
 - username = solace
 - Hostname = Hantermachine
 - current directory = path
-- privilege = $-(user), #-(root)
+- privilege =` $`-(user), `#`-(root)
 - command place = _ 
 - home directory = ~
 - $ = user (privilege)
 - root (power) = # 
 eg. 
-> (solace @ Huntermachine)-[~]
-> $_                                                                   [~]=> shows path
+> (solace @ Huntermachine)-`[~]`
+> $_                                                                   `[~]` => shows path
 
-Home Directory = [~]
-local directory = [.] ...current directory
-all directory = [*]     ...* * shows all directories
+Home Directory = `[~]`
+local directory = `[.]` ...current directory
+all directory = `[*]`     ...shows all directories
 ~ = home/xx    (home directory)
 ### commands
 -commands have options and arguments
