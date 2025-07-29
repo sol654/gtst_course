@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5d57709b4e2f949c",
+        "id": "9c7ecc8fb7f3baf7",
         "type": "tabs",
         "children": [
           {
-            "id": "ba88d86dc1ab805f",
+            "id": "828f5d3d2f38cd58",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2025-07-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2025-07-19"
             }
           },
           {
@@ -165,10 +166,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba88d86dc1ab805f",
+  "active": "828f5d3d2f38cd58",
   "lastOpenFiles": [
-    "5.cybersecurity/Day_7 System  Security.md",
+    "Pasted image 20250729013218.png",
+    "Pasted image 20250729011352.png",
+    "Pasted image 20250729003950.png",
+    "Pasted image 20250729002221.png",
+    "Pasted image 20250729002110.png",
+    "Pasted image 20250728212241.png",
+    "Pasted image 20250728211054.png",
+    "Pasted image 20250728210938.png",
+    "Pasted image 20250728210744.png",
+    "Pasted image 20250728210458.png",
+    "Pasted image 20250728210405.png",
+    "Untitled 2.canvas",
     "5.cybersecurity/Day_9 Anonymity &  Blue Teaming.md",
+    "2025-07-19.md",
+    "Untitled",
+    "Untitled 1.canvas",
+    "CTF_writeups/THM-owasp_juice.pdf",
+    "Untitled.canvas",
+    "5.cybersecurity/Day_7 System  Security.md",
     "5.cybersecurity/Day_8 Website security.md",
     "5.cybersecurity/Day_6 Network Hacking(part1).md",
     "1_Linux_tutore/Day_6 Finishing on linux(part1).md",
@@ -180,7 +198,6 @@
     "1_Linux_tutore/Day_2 Introduction to cyber security.md",
     "1_Linux_tutore/Day_1 Introduction.md",
     "5.cybersecurity/Day_5 Cryptography Fundamentals.md",
-    "CTF_writeups/THM-owasp_juice.pdf",
     "crunch.md",
     "P vs NP relationship.md",
     "S-box.md",
@@ -195,23 +212,10 @@
     "Malwares/XOR_ransoms/encrypt_ransmom.py",
     "Malwares/XOR_ransoms/decrypt_ransom.py",
     "Malwares/XOR_ransoms",
-    "Malwares/decrypt_ransom.py",
     "Malwares/RansomwaresencRansomwaresUntitled.md",
     "CTF_writeups/THM-Wgel_ctf-writeup.md",
-    "8.png",
-    "Pasted image 20250628061626.png",
-    "1.png",
-    "7.png",
-    "6.png",
-    "5.png",
-    "3.1.png",
-    "3.png",
-    "2.png",
     "CTF_writeups/~$M-Wgel_ctf-writeup - Copy.md",
     "CTF_writeups/THM-Wgel_ctf-writeup - Copy.md",
-    "4.png",
-    "Untitled.md",
-    "5.cybersecurity/Day_1 Reconnaissance(info-gathering)(part1).md",
-    "Untitled 1.md"
+    "Untitled.md"
   ]
 }
