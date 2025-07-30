@@ -599,3 +599,47 @@ You can use Goaccess too
 
 ### Tier 3: Cyber Threat Hunting/Intelligence
 
+- Focuses on **proactive threat hunting** to uncover hidden threats. 
+- To detect advanced persistent threats (APTs), malware, or insider threats that evade automated security tools. 
+- CTI will Hunt Threats and Come Up with IOA/IOCs 
+- Develops detection rules and fine-tunes SOC tools (e.g., SIEM rules, playbooks). 
+- Researches emerging threats and integrates threat intelligence. 
+- **CTI** in Action
+	- a. Using threat feeds to block known malicious IPs. 
+	- b. Leveraging OSINT tools for reconnaissance.
+	- Tracking APT (Advanced Persistent Threat) groups through threat intelligence.
+
+## Categories of CTI Tools
+
+1. Open-Source Intelligence (OSINT) 
+2. Threat Feeds & Aggregators 
+	- a. AlienVault OTX – Crowdsourced threat intelligence.  
+	- b. VirusTotal – Scans files and URLs for malware indicators. 
+	- c. AbuseIPDB – Checks for malicious IPs. 
+	- d. IBM X-Force Exchange – Advanced threat intelligence sharing.
+3. Malware Analysis
+	- a. **Any.Run** – Interactive malware sandbox.
+	- b. **Hybrid Analysis** – Deep malware behavior reports. 
+	- c. **Cuckoo Sandbox** – Open-source automated malware analysis.
+	- d. **Intezer Analyze** – Code reuse detection for malware classification.
+4. Threat Hunting 
+	- Sigma – Open rule-based format for SIEMs. 
+	- YARA – Tool for malware identification. 
+	- GRR Rapid Response – Incident response tool. 
+	- Velociraptor – Advanced endpoint monitoring and threat hunting.
+5. Dark Web Monitoring
+	- DarkTracer – Tracks leaked credentials and cybercrime activities. 
+	- Intel 471 – Monitors cybercriminal networks. 
+	- DeHashed – Database breach lookup service. 
+	- TorBot – Automated OSINT collection from the dark web.
+6. Security Information and Event Management (SIEM)
+7. Threat Attribution & TTPs Tracking
+
+## Here is the links of the above tools
+
+- **AbuselPDB**: https://www.abuseipdb.com/
+- Hybrid-Analysis: https://www.hybrid-analysis.com/
+- Any.Run: https://app.any.run/submissions/
+- Threat Sharing Platforms, CTI Community Shares their Findings on Different Feeds.
+
+
