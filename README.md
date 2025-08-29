@@ -1,1 +1,1 @@
-This is note written while taking the Geez Tech Security Taster&reg; course.
+This is note written while taking the GTST&reg; course.
