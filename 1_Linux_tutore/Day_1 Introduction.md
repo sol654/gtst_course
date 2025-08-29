@@ -1,55 +1,102 @@
-# DAY1: ETHICAL HACKING
-Hello **this** is test
-## Git and Github
-- **Git** - is a version controller  system in computer. control files.
-     It stores files locally in computer or remotely on github.
-- **Github** - files where stored in remote folders called "github repository".
-         *Repository(Repo)* is *folder* for git.
-         
-    #### Some terms in Git
-     - **push** -upload file to github.
-     - **pull** -download file to Repo (computer folder).
-     - **Add** -add to commit(staging changes).
-     - **clone** -download new Repo.
-     - **commit** -save your changes to the Repo.
+# DAY 1: Ethical Hacking
 
-# Some markdown techniques for Github
-**NB**. *Obsidian* a software best for writing a markdown notes for repository.
 
-1- For todo list **checkbox** - [ ] and then make space in the brace.
-eg-
-- [x] checkbox example1
-- [ ] checkbox example2
+## Git and GitHub
 
-2- For **heading** # and space (if number of # is increased, heading become smaller)
-eg-
-# Heading1
-## Heading2
-##### Heading3
+-   **`Git`**: A distributed version control system that tracks changes in computer files. It stores files locally on your computer and can synchronize with remote repositories.
+-   **`GitHub`**: A cloud-based platform that hosts Git repositories. Files are stored in remote folders called "repositories".
+    -   **`Repository (Repo)`**: A project folder that Git tracks for version control.
 
-3- For boldind we use a text b/n ** ** and for italicized * * then space as aquotation.
-eg-
-**Bold** and *Italicized* 
+### Key Git Terminology
 
-4- For blockquote we use > and space  then blockquote
-eg-
-> blockquote1
-> blockquote2
-> blockquote3
+-   **`Push`**: Upload local changes to a remote repository (e.g., GitHub).
+-   **`Pull`**: Download changes from a remote repository to your local repo.
+-   **`Add`**: Stage changes for the next commit.
+-   **`Clone`**: Download a copy of a remote repository to your local machine.
+-   **`Commit`**: Save your staged changes to the local repository with a descriptive message.
 
-5- For **code** we use a text b/n `two backticks` 
-eg-
-`System.out.Println("Hello World!!")`
-
-6- For Horizontal Rule ---
-eg-
 ---
 
-7- For **link** we use ***square bracket*** for *title* and ***normal bracket*** for *Link*
-eg-
-[google](www.google.com) 
+## Markdown Techniques for GitHub
 
-8- For **Image** we use ! then ***square bracket*** for *alt text* and ***normal bracket*** for *Image*
-eg-
-![alt text][Williams.jpg]
+> **Note**: [Obsidian](https://obsidian.md/) is a powerful software for writing and managing Markdown notes, ideal for GitHub documentation.
 
+### 1. Checkbox (Task List)
+**Notation**: `- [ ]` for an empty checkbox, `- [x]` for a checked one.
+**Example**:
+- [x] Checkbox example 1 (completed)
+- [ ] Checkbox example 2 (pending)
+
+### 2. Headings
+**Notation**: `# Heading 1`, `## Heading 2`, `### Heading 3`, etc. The number of `#` symbols determines the heading level.
+**Example**:
+# Heading 1
+## Heading 2
+##### Heading 5
+
+### 3. Text Formatting
+-   **Bold Notation**: `**Bold text**` or `__Bold text__`
+    **Example**: **Bold text**
+-   *Italic Notation*: `*Italic text*` or `_Italic text_`
+    **Example**: *Italicized text*
+
+### 4. Blockquotes
+**Notation**: `> ` followed by your text.
+**Example**:
+> This is a blockquote.
+> It can span multiple lines.
+
+### 5. Inline Code
+**Notation**: Wrap text with a single backtick: `` `code` ``
+**Example**:
+`System.out.println("Hello World!");`
+
+### 6. Horizontal Rule
+**Notation**: Three or more hyphens, asterisks, or underscores on a new line: `---`
+**Example**:
+---
+
+### 7. Links
+**Notation**: `[Link Text](URL)`
+**Example**:
+[Google](https://www.google.com)
+
+### 8. Images
+**Notation**: `![Alt Text](image-url)`
+**Example**:
+![Alt Text](Williams.jpg)
+
+---
+
+## Additional Useful Markdown Features
+
+### Tables
+**Notation**: Use pipes (`|`) and hyphens (`-`) to create tables.
+**Example**:
+| Command | Description |
+|---------|-------------|
+| `git add` | Stages changes |
+| `git commit` | Saves changes |
+
+### Code Blocks
+**Notation**: Wrap code in triple backticks. You can add the language for syntax highlighting: ` ```java `.
+**Example**:
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+```
+
+### Lists
+-   **Unordered List Notation**: `- Item`, `* Item`, or `+ Item`
+-   **Ordered List Notation**: `1. First Item`, `2. Second Item`
+
+**Example**:
+1. First item
+2. Second item
+   - Sub-item
+   - Another sub-item
+
+---

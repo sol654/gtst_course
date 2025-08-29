@@ -810,7 +810,7 @@ Steganography is **the practice of hiding a secret message inside of (or even on
 >	cat secret.txt     # you can get the text file now
 ```
 1. Download it 
-2. To hide text to image 
+2. To hide text in image 
 3. To extract
 
 ## Caution
