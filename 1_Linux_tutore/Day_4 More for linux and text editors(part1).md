@@ -1,68 +1,135 @@
-### linux file Heirarchy
-- linux(unix) has a special file system(a directory structure that the OS uses).
-- **File System**:
-      - for windows(**local Disk C**)
-      - for linux(**root directory(/)**)
-NB. **root directory(/)** and **/root** are different becouse,
-      - /(root) is normal users 'root directory'. but,
-      - /root is root user's file place. normal user can't access it.
-   **/bin** :binary files (commands) directory. for normal user in a single user:
-         eg, cat, ls, cp.......   NB. both normal and root users can access it.
-  **/boot** :boot loader files.
-  **/dev** :Essential devises files.
-      - terminal, usb, or any other devises attached to the system. 
-        eg, /dev/tty1,  /dev/usbm0mo
-  **/etc** :et cetera ..contain *configuration files of all programms.*
-      - has ***start/stop** shell scripts* for programms.
-           eg, /etc/hosts, /etc/passwd, /etc/resolve.config
-      NB. **/etc/hosts** :gives *domain name for IP addresses*.
-             eg, 192.168.1.1 = ex.com
-  **/home** :has different users personal files, but you cannot access other users personal file.
-         you must login in to the user.
-        eg. your home directory /home/solace
-  **/lib** :libraries essential for the binaries in /bin and /sbin.
-     - library filenames are either lb* or lib*.so*.
-  **/media** :mount points for removable medias. such as CD-ROM.
-        - temporary mount directory.
-        eg, /media/cdrom   ...for CD-ROM.
-  **/mnt** :Temporarily mounted file. 
-  **/opt** :optional application software packages. 
-       -if you install other than linux applications like Chrome.
-   **/sbin** :essential system binaries. commands for **root user** only.
-       -NB. If normal user want to access these commands you have to use **sudo** command.
-  **/tmp** :here you can create temporary files. but, if system rebooted it will be deleted.
-  **/usr** :(user utilities) ..to make other users can access our linux, 
-      but you can limit the accessible commands.
-      eg, /usr/bin,  /usr/sbin.....
-#### Text Editors
-- They are programs or commands. has two methods
-  **1, linux command line text editors** :eg. Vim, Nano, Emacs, Neovim....
-  **2, linux Graphical Text editors** :eg, sublime, vscode, Gedit, plume....
+# Linux File System Hierarchy
 
-  ### VIM
-    Before vi :unix was the line editor. able to see and edit one line.
-    - Then **(vi improved)**.
-    - **vim editor** is:
-         -very powerful
-         -but at the same time it is cryptic(having or seeming to have a hidden meaning).
-         -hard to learn for window users. bc it has 4 MODES.
-     ### Modes for vim
-     NB. to use  vim editor to have to pass 4 modes.
-     First create file with vim eg.  *vim file.txt*
-     1. **Normal mode**: here you can not write, save, exit.. vim is by default normal mode.
-     2. **Insert mode:** (*click i* ) ..now you can write. (*click enter*)=new line.
-     3. **Command mode:** (*click esc*) ..now you can *save, quite, save and quite, force save and      quite, undo, Execute bash commands*. then:
-         :w + enter    ... to save.
-         :q + enter    ... to quit.
-         :w! or :q! or :wq! + enter    ... to foce save and quit.  (! this is force)
-         :u     ....undo.
-         :%!BashCommand       .....to write bash command.
-               eg. :%!grep fun eg.txt
-       4. **Visual mode**: allow block of text to manipulate(select, copy, pest, delete).
-          - To get in to visual mode there are several ways.
-              -If *character wise* visual mode *click 'v'* .
-              -If *line wise* visual mode  *click '(shift + v)'*
-              -If *Block wise* visual mode *click '(ctrl + v) or (ctrl + q)'*
-          - To **delete** selected text  *click 'd'*.
-          - To **copy** selected text  *click 'y'*.
-          - To **pest** selected text  *click 'p'*.
+## Introduction
+Linux uses a standardized file system hierarchy that organizes files and directories in a specific structure. Understanding this hierarchy is essential for system administration and cybersecurity work.
+
+## Key Directories
+
+### `/` - Root Directory
+- The top-level directory in the Linux file system
+- **Note**: `/` (root directory) is different from `/root` (root user's home directory)
+
+### `/bin` - Essential User Binaries
+- Contains essential command binaries for all users
+- Examples: `cat`, `ls`, `cp`, `mv`, `rm`
+- Accessible by both normal and root users
+
+### `/boot` - Boot Loader Files
+- Contains files needed for system boot process
+- Includes kernel images, bootloader configurations
+
+### `/dev` - Device Files
+- Contains device files representing hardware components
+- Examples: `/dev/tty1` (terminal), `/dev/usbmon0` (USB device)
+
+### `/etc` - Configuration Files
+- Stores system-wide configuration files
+- Contains start/stop shell scripts for services
+- Important files:
+  - `/etc/hosts` - Local domain name resolution
+  - `/etc/passwd` - User account information
+  - `/etc/resolv.conf` - DNS resolver configuration
+
+### `/home` - User Home Directories
+- Contains personal directories for each user
+- Users cannot access other users' home directories without permission
+- Example: `/home/solace` for user "solace"
+
+### `/lib` - Essential Libraries
+- Contains shared libraries needed by binaries in `/bin` and `/sbin`
+- Library naming convention: `ld*` or `lib*.so*`
+
+### `/media` - Removable Media Mount Points
+- Temporary mount directory for removable media
+- Example: `/media/cdrom` for CD-ROM drives
+
+### `/mnt` - Temporary Mounts
+- Used for temporarily mounting filesystems
+
+### `/opt` - Optional Software Packages
+- Contains third-party application software
+- Example: Google Chrome, proprietary software
+
+### `/sbin` - System Administration Binaries
+- Contains essential system binaries for root user
+- Normal users require `sudo` to access these commands
+
+### `/tmp` - Temporary Files
+- Stores temporary files that are deleted on system reboot
+
+### `/usr` - User Utilities
+- Contains user-accessible programs and utilities
+- Subdirectories: `/usr/bin`, `/usr/sbin`, `/usr/lib`
+
+---
+
+# Linux Text Editors
+
+## Types of Text Editors
+
+### Command-Line Text Editors
+- **Vim** - Vi Improved (powerful, modal editor)
+- **Nano** - Simple, beginner-friendly editor
+- **Emacs** - Extensible, customizable editor
+- **Neovim** - Modern Vim fork
+
+### Graphical Text Editors
+- **VS Code** - Microsoft's cross-platform editor
+- **Sublime Text** - Proprietary code editor
+- **Gedit** - GNOME desktop environment editor
+- **Plume** - Lightweight graphical editor
+
+---
+
+# Vim Editor Guide
+
+## About Vim
+- **Vim** (Vi Improved) is an enhanced version of the original Vi editor
+- Powerful but has a steep learning curve for Windows users
+- Operates in multiple modes for different functions
+
+## Vim Modes
+
+### 1. Normal Mode (Default)
+- Default mode when opening Vim
+- Used for navigation, copying, pasting, and deleting
+- Cannot insert text in this mode
+
+### 2. Insert Mode
+- Enter by pressing `i`
+- Allows text insertion and editing
+- Press `Enter` for new lines
+- Return to Normal mode with `Esc`
+
+### 3. Command Mode
+- Access by pressing `:` in Normal mode
+- Common commands:
+  - `:w` - Save file
+  - `:q` - Quit Vim
+  - `:wq` or `:x` - Save and quit
+  - `:q!` - Force quit without saving
+  - `:w!` - Force save
+  - `:u` - Undo last action
+  - `:%!bash_command` - Execute bash command on text
+    - Example: `:%!grep fun eg.txt`
+
+### 4. Visual Mode
+- Used for text selection and manipulation
+- Enter with:
+  - `v` - Character-wise selection
+  - `Shift + V` - Line-wise selection
+  - `Ctrl + V` or `Ctrl + Q` - Block-wise selection
+- Operations in Visual mode:
+  - `d` - Delete selected text
+  - `y` - Yank (copy) selected text
+  - `p` - Paste copied text
+
+## Basic Vim Usage
+1. Create/open file: `vim filename.txt`
+2. Press `i` to enter Insert mode
+3. Type your text
+4. Press `Esc` to return to Normal mode
+5. Use `:wq` to save and exit
+
+---
+

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_Linux_tutore/Day_1 Introduction.md",
+                "file": "1_Linux_tutore/Day_3(part 1) kali linux overview and linux commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day_1 Introduction"
+              "title": "Day_3(part 1) kali linux overview and linux commands"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7ac4ca36ecf3608d",
@@ -170,11 +169,32 @@
   },
   "active": "828f5d3d2f38cd58",
   "lastOpenFiles": [
-    "1_Linux_tutore/Day_2 Introduction to cyber security.md",
-    "1_Linux_tutore/Day_1 Introduction.md",
-    "5.cybersecurity/Day_7 System  Security.md",
+    "5.cybersecurity/Day_3 Malware Threats(part2).md",
+    "5.cybersecurity/Day_8 Website security.md",
+    "5.cybersecurity/Day_6 Network Hacking(part1).md",
+    "5.cybersecurity/Day_3 Malware Threats(part1).md",
     "5.cybersecurity/Day_1 Reconnaissance(info-gathering)(part2).md",
-    "5.cybersecurity/Day_9 Anonymity &  Blue Teaming.md",
+    "5.cybersecurity/Day_1 Reconnaissance(info-gathering)(part1).md",
+    "4_Networking_for_Hackers/Day_12 Introduction_to_Networking (part1).md",
+    "4_Networking_for_Hackers/Day_12 Introduction_to_Networking (part2).md",
+    "3_Bash_Programming/Day_11 Further on Bash(part2).md",
+    "3_Bash_Programming/Day_11 Further on Bash (part1).md",
+    "3_Bash_Programming/Day_10 Bash_introduction (part2).md",
+    "3_Bash_Programming/Day_10 Bash_introduction (part1).md",
+    "2_Python_for_Hackers/Day_9 Further on python(part2).md",
+    "2_Python_for_Hackers/Day_9 Further on python(part1).md",
+    "2_Python_for_Hackers/Day_8 Core of python programming(part3).md",
+    "2_Python_for_Hackers/Day_8 Core of python programming(part2).md",
+    "2_Python_for_Hackers/Day_8 Core of python programming(part1).md",
+    "2_Python_for_Hackers/Day_7 Python Introduction (part2).md",
+    "2_Python_for_Hackers/Day_7 Python Introduction (part1).md",
+    "1_Linux_tutore/Day_6 Finishing on linux(part2).md",
+    "1_Linux_tutore/Day_6 Finishing on linux(part1).md",
+    "1_Linux_tutore/Day_5 Advanced linux for users(part2).md",
+    "1_Linux_tutore/Day_5 Advanced linux for users(part1).md",
+    "1_Linux_tutore/Day_4 More for linux and text editors(part2).md",
+    "1_Linux_tutore/Day_4 More for linux and text editors(part1).md",
+    "1_Linux_tutore/Day_3(part 2) linux commands and multiple  cmd excutions.md",
     "Pasted image 20250729013218.png",
     "Pasted image 20250729011352.png",
     "Pasted image 20250729003950.png",
@@ -186,38 +206,17 @@
     "Pasted image 20250728210744.png",
     "Pasted image 20250728210458.png",
     "Untitled 2.canvas",
-    "2025-07-19.md",
     "Untitled",
     "Untitled 1.canvas",
     "CTF_writeups/THM-owasp_juice.pdf",
     "Untitled.canvas",
-    "5.cybersecurity/Day_8 Website security.md",
-    "5.cybersecurity/Day_6 Network Hacking(part1).md",
-    "1_Linux_tutore/Day_6 Finishing on linux(part1).md",
-    "1_Linux_tutore/Day_4 More for linux and text editors(part1).md",
-    "1_Linux_tutore/Day_3(part 2) linux commands and multiple  cmd excutions.md",
-    "1_Linux_tutore/Day_3(part 1) kali linux overview and linux commands.md",
-    "1_Linux_tutore/Day_3 grep, sed and awk examples.md",
-    "1_Linux_tutore/Day_2 linux.md.md",
-    "5.cybersecurity/Day_5 Cryptography Fundamentals.md",
-    "crunch.md",
-    "P vs NP relationship.md",
-    "S-box.md",
-    "5.cybersecurity/Day_4 Social  Engineering.md",
-    "5.cybersecurity/Day_3 Malware Threats(part2).md",
     "Malwares/File_and_dir_remover/everything_remover_virus.py",
     "Malwares/File_and_dir_remover",
     "Malwares/New folder",
     "Malwares/caesar3_ransom/caesar3.py",
     "Malwares/caesar3_ransom",
-    "5.cybersecurity/Day_3 Malware Threats(part1).md",
     "Malwares/XOR_ransoms/encrypt_ransmom.py",
     "Malwares/XOR_ransoms/decrypt_ransom.py",
-    "Malwares/XOR_ransoms",
-    "Malwares/RansomwaresencRansomwaresUntitled.md",
-    "CTF_writeups/THM-Wgel_ctf-writeup.md",
-    "CTF_writeups/~$M-Wgel_ctf-writeup - Copy.md",
-    "CTF_writeups/THM-Wgel_ctf-writeup - Copy.md",
-    "Untitled.md"
+    "Malwares/XOR_ransoms"
   ]
 }

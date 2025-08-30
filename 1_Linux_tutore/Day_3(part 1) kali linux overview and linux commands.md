@@ -1,68 +1,132 @@
-### Tools in kali linux(common mostly used tools)
-1, **Information gathering**: maltego, nmap, recon-ng.
-2, **Vulnerability Analysis**: nikito, nmap.
-3, **web application analysis**: burpsuite, sqlmap, wpscan, zap.
-4, **Database assessment**: sqlmap, jsql injection, SQLite data..
-5, **password attack**: hashcat, john, wordlists
-6, **wireless attack**: aircrack-ng, wifite, reaver
-7, **reverse engineering**: make a research about how the system is build. 
-                - apktool, ghydra, NASM shell
-8, **Exploitation tool(metlefiya)**: metasploit, search sploit, sqlmap
-9, **Sniffing and Spoofing(manefnef)**: for listining or hijacking networks.
-                - wireshark, hamster
-10, **post exploitation**: focuses on *maintaining access*.
-                - powersploit, backdoor
-11, **Forensics**: research and investigate a cyber attacks.
-          - hashdeep(more and mostly used tool), foremost
-12, **Reporting tool**: after some forensic you will get a data so will write report.
-             - maltego, recordmydesktop(using video)
-13, **social engineering**: backdoor, maltego, social engineering
-14, **system services**: buttons to start some services.
-             - the whole tools are bests use them
-15, **usually used applications**: softwares for some basic purposes.
+# Essential Kali Linux Tools and Terminal Basics
 
-NB. search about **Hybernate** on google.
-#### Folder Manager
-1, **Dolphin**: on *KDE plasma*- has windows like folder manager
-2, **Thunar**: on *gnome and **ubuntu***
-3, **Nautilus**: on *ubuntu* mostly
-NB. on windows folder managers are premimum not free.
-### 5 Parts of terminal
-- username = solace
-- Hostname = Hantermachine
-- current directory = path
-- privilege =` $`-(user), `#`-(root)
-- command place = _ 
-- home directory = ~
-- $ = user (privilege)
-- root (power) = # 
-eg. 
-> (solace @ Huntermachine)-`[~]`
-> $_                                                                   `[~]` => shows path
+## Commonly Used Kali Linux Tools
 
-Home Directory = `[~]`
-local directory = `[.]` ...current directory
-all directory = `[*]`     ...shows all directories
-~ = home/xx    (home directory)
-### commands
--commands have options and arguments
-**command --option argument**
-eg. Math --add 1 1
-*Command*: is a small program that used to do one task well.
+### 1. Information Gathering
+- **Maltego**: Intelligence and forensics application for link analysis
+- **Nmap**: Network discovery and security auditing tool
+- **Recon-ng**: Web reconnaissance framework
 
-**ls**: 
-ls ...(blue=folder, white=txt, and others)
-ls -l ...creared date, by user, permition
-ls -a ...list with hidden files
-ls gtst ..list files in gtst folder
-ls -R ...files in all folder
-ls -Rla ...the combination of (-R i and a)
-NB. If the file name is started with dot(.) = Hidden file
+### 2. Vulnerability Analysis
+- **Nikto**: Web server vulnerability scanner
+- **Nmap**: Network exploration and security auditing
 
-**cd**:
-cd / ...root directory
-cd , cd ~ ...Home directory
-cd ..    ...back once
-cd ../ ..    ...back twice
-cd grst ...get in to gtst folder
-cd 'folder one'   .....if the folder name has space
+### 3. Web Application Analysis
+- **Burp Suite**: Web application security testing platform
+- **SQLMap**: Automatic SQL injection and database takeover tool
+- **WPScan**: WordPress vulnerability scanner
+- **OWASP ZAP**: Zed Attack Proxy for web app security testing
+
+### 4. Database Assessment
+- **SQLMap**: Automated SQL injection tool
+- **jSQL Injection**: Lightweight SQL injection tool
+- **SQLite Database Browser**: SQLite database management tool
+
+### 5. Password Attacks
+- **Hashcat**: Advanced password recovery tool
+- **John the Ripper**: Password cracking utility
+- **Wordlists**: Password dictionaries for brute-force attacks
+
+### 6. Wireless Attacks
+- **Aircrack-ng**: WiFi network security auditing tool suite
+- **Wifite**: Automated wireless attack tool
+- **Reaver**: WPS PIN attack tool
+
+### 7. Reverse Engineering
+- **APKtool**: Reverse engineering Android applications
+- **Ghidra**: NSA-developed reverse engineering framework
+- **NASM Shell**: Netwide Assembler shell
+
+### 8. Exploitation Tools
+- **Metasploit**: Penetration testing framework
+- **Searchsploit**: Exploit database search tool
+- **SQLMap**: Database exploitation tool
+
+### 9. Sniffing and Spoofing
+- **Wireshark**: Network protocol analyzer
+- **Hamster**: Sidejacking tool for session hijacking
+
+### 10. Post Exploitation
+- **PowerSploit**: PowerShell post-exploitation framework
+- **Backdoor Factory**: Patch PE, ELF, and Mach-O binaries
+
+### 11. Forensics
+- **Hashdeep**: Compute and manage hash sets
+- **Foremost**: File carving and recovery tool
+
+### 12. Reporting Tools
+- **Maltego**: Data visualization and reporting
+- **RecordMyDesktop**: Desktop video recording for documentation
+
+### 13. Social Engineering
+- **Social Engineering Toolkit**: Penetration testing framework
+- **Backdoor Factory**: Binary backdoor creation
+- **Maltego**: Information gathering for social engineering
+
+### 14. System Services
+- Various service management tools for starting/stopping security services
+
+### 15. Utility Applications
+- Basic software tools for general purposes
+
+> **Note**: Research **Hibernate** for advanced persistence techniques in cybersecurity.
+
+## File Managers in Linux Environments
+
+- **Dolphin**: Default file manager for KDE Plasma (Windows-like interface)
+- **Thunar**: Lightweight file manager for XFCE and GNOME environments
+- **Nautilus**: Default file manager for GNOME (Ubuntu)
+
+> Unlike Windows, Linux file managers are free and open-source.
+
+## Terminal Structure Breakdown
+
+A typical Linux terminal prompt contains:
+- **Username**: Current user (e.g., `solace`)
+- **Hostname**: Machine name (e.g., `Huntermachine`)
+- **Current directory**: Path indicator
+- **Privilege level**: 
+  - `$` = Regular user privileges
+  - `#` = Root (administrator) privileges
+- **Command input position**: `_` cursor
+
+**Example prompt:**
+```
+solace@Huntermachine:~$ _
+```
+
+**Directory Indicators:**
+- `~` = Home directory
+- `.` = Current directory
+- `*` = All directories (in certain contexts)
+
+## Basic Linux Commands
+
+### Command Structure
+```
+command --option argument
+```
+**Example:** `math --add 1 1`
+
+### Essential Commands
+
+#### `ls` - List Directory Contents
+- `ls` : Basic listing (blue = folders, white = text files)
+- `ls -l` : Detailed listing with permissions, owner, date
+- `ls -a` : Show all files including hidden files
+- `ls folder_name` : List contents of specific folder
+- `ls -R` : Recursive listing of all subdirectories
+- `ls -Rla` : Combined options (recursive, long format, all files)
+
+> **Note**: Files starting with `.` are hidden files
+
+#### `cd` - Change Directory
+- `cd /` : Root directory
+- `cd` or `cd ~` : Home directory
+- `cd ..` : Move up one directory level
+- `cd ../..` : Move up two directory levels
+- `cd folder_name` : Enter specific folder
+- `cd 'folder name'` : Access folders with spaces in name (use quotes)
+
+---
+

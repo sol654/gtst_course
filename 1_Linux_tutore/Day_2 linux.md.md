@@ -1,101 +1,98 @@
-### LINUX
-**linux**- is a kernel: meets sw and Hw and allocate some resources.
-       -code or program.
+# Linux Fundamentals for Cybersecurity
 
-#### HISTORY
-- first 1969- **Unix** on *PDP-7* by **Ken Thompson and Dennis Ritchie**. 
-But, not chip and not open source.
-- **Linus Torvalds**: *linux* and make it *open-source* to his github online. written by **C** programming language.
-- **Richard Stallman**: *GNU* project and *free software foundation*.  **GNU**: free  sw replacement to unix os. but it's sw replacement but not full os. eg {BASH, TAR, EMACS... }. 
-    so,  GNU + linux => GNU/linux os.
-  NB.  **os = kernel + sw**   ...which is must.
-- **GNU linux**- is os, but **linux** is kernel.
+## What is Linux?
+**Linux** is a kernel - the core program that mediates between software and hardware, managing resource allocation. It serves as the foundation for operating systems.
 
-**GNU LINUX OS**: unix like os, source code copied, modified and redistributed.
-**SHELL**: cmd line interpreter(cli), to communicate user with kernel with our language.(it's like delala ye kuankua). 
-### Types Of Shell(many)
-eg. SH, BASH, ZSH, FISH... they are dt in color, piping and command compilation.
-To identify your shell "**echo $SHELL**".
-**linux:** the shell is terminal.
-**windows**: the shell is cmd, and also hase power shell for ms.
-SH: geba yale(piping)
-BASH: more coloring
-ZSH: extended feature of BASH
-FISH: beautiful. colorful, animated, user interactive
+### Historical Background
+- **1969**: Unix was developed for PDP-7 by Ken Thompson and Dennis Ritchie (proprietary, not open source)
+- **1991**: Linus Torvalds created the Linux kernel and made it open source (written in C programming language)
+- **1983**: Richard Stallman launched the GNU Project and Free Software Foundation, creating free software replacements for Unix utilities (BASH, TAR, EMACS, etc.)
 
-## OS - main software on computer
-**unix and GNU lINUX as os**
-*OS_contains* kernel, sw, file extention, windows manager, Desktop env't (GI, interacts with linux os)
-**Desktop envt**: eg. *mate*, *gnome*(animated and beautiful. seems w11), KDE plasma(seems windows), and XFCE.
-**NB**. speed of desktop is depends on:
-animation, Highgraphics, Quality.
->Do you have a slow pc? ...use XFCE and MATE?
->Do you have a high pc? ...use KDE plash, gmone(females);
-## windows manager
-eg. "i3-windows-manager" for slow pcs. 
-u can use kali keyboard with out mouth.
-## why linux for hacking
-*Fast* for slow and high computers
-*most used* 47% of developers used linux based os.
-*websites* 32%  linux powered.
-*smartphones* 85%
-*webservers* above one million ...96.3%
-most hacking tools.
-linux desktop os ..2.09% on market.
-Today, there are over 600 active linux distros.
-most secured.
-## linux distributions(Distro)
-Distros have similar function but dt in some features and some things to use.
-modified linux kerner. type of os with dt:
-- linux kerner ...modified
-- packages(GNU) ...added
-- Package manager ...like ms for windows(modified bc for linux there is dt package manager).
-- Desktop UI ...modified desktop Env't.      eg, MATE -> GNOME
-There are so many distros. for instances:
-- Debians(kali linux, ubuntu, parrot)
-- Arch(Guarda, Black arch)
-- Fedora
-- Red Hat
-- Gento
-- Android
-for beginners use *Debians*, for hard(professionals) use *Arch*.
-Which one best for Hackers:
-- kali linux- has all tools.
-- parrot- has two options(for Developers and for Hackers)- has all tools.
-- Guarda   
-- Black Arch       these the last two are hesitating and not for beginners 
-- Ubuntu- setup tools specifically. has no all tools.
-### kali linux
-debian derived linux distribution. for digital forensics and penetration testing.
-maintained and funded by offensive security.
-- desktop envt: XFCE
-- package: apt
-- shell: ZSH
-### parrot
-for security, privacy and development.
-- desktop envt: MATE
-- package: apt
-- shell: BASH
-### Guarda
-Arch linux distribution os.
-- desktop envt: KED PLASMA
-- package: pacman
-- shell: FISH
-#### Do windows have distros?
-No, bc not have open source(not editable kerner code).
-It just gives updated and some features.
+The combination of GNU software and Linux kernel created **GNU/Linux** - a complete operating system.
 
-### How to install ??
-1, **main methode**- no other os
-2, **Dual Boot**- two OSs in one
-3, **Live Boot**- using USB(like flash)
-4, **Cloud Terminal**- best for low performance pc. (www.webminal.org)
-5, **Virtual Machine**- one host os with 2 additionals can run at the same time.
-- Type1 Virtualization(Bare-metal Hypervision)
-     -no need os host os. directly to hardware.
-- Type2 Virtualization(Hosted Hypervision)
-     -Top(main) OS is must. easier to personal or development env't
-     using VirtualBox or VMware workstation.
-6, **WSL V2** (windows subsystem for linux)
-        -linux is like cmd and Power Shell.
-        -it gives only terminal. like Cloud terminal
+> **Note**: Operating System = Kernel + Software
+
+## Shell Overview
+A **shell** is a command-line interpreter (CLI) that enables user-kernel communication. Common shell types include:
+
+- **SH**: Basic shell (original Unix shell)
+- **BASH**: Bourne Again Shell (enhanced with coloring and features)
+- **ZSH**: Z Shell (extended BASH functionality)
+- **FISH**: Friendly Interactive Shell (colorful, user-friendly)
+
+Check your current shell with: `echo $SHELL`
+
+## Operating System Components
+Linux distributions contain:
+- Kernel
+- Software packages
+- File system
+- Window manager
+- Desktop Environment (GUI interface)
+
+### Popular Desktop Environments
+- **GNOME**: Modern, visually appealing (similar to Windows 11)
+- **KDE Plasma**: Windows-like interface
+- **XFCE**: Lightweight and efficient
+- **MATE**: Traditional desktop experience
+
+> **Performance Note**: Choose XFCE or MATE for slower hardware; GNOME or KDE Plasma for high-performance systems.
+
+## Why Linux for Cybersecurity?
+- **Efficiency**: Optimized performance for various hardware specifications
+- **Market Presence**: 
+  - 47% of developers use Linux-based systems
+  - 32% of websites run on Linux
+  - 85% of smartphones use Linux kernels
+  - 96.3% of top web servers use Linux
+- **Tool Availability**: Most security tools are Linux-native
+- **Security**: Enhanced security model and transparency
+- **Flexibility**: Over 600 active distributions available
+
+## Linux Distributions
+Distributions vary by:
+- Modified Linux kernel
+- Package selection (GNU utilities)
+- Package management system
+- Desktop environment
+
+### Popular Distributions for Security Professionals
+
+#### **Kali Linux** (Debian-based)
+- Purpose: Digital forensics and penetration testing
+- Maintainer: Offensive Security
+- Desktop: XFCE
+- Package Manager: APT
+- Shell: ZSH
+
+#### **Parrot OS** (Debian-based)
+- Purpose: Security, privacy, and development
+- Options: Security edition & Home edition
+- Desktop: MATE
+- Package Manager: APT
+- Shell: BASH
+
+#### **Garuda Linux** (Arch-based)
+- Desktop: KDE Plasma
+- Package Manager: Pacman
+- Shell: FISH
+
+#### **BlackArch** (Arch-based)
+- Advanced penetration testing distribution
+- Not recommended for beginners
+
+> **Windows Note**: Windows doesn't have distributions because its kernel is not open-source.
+
+## Installation Methods
+
+1. **Native Installation**: Sole operating system on hardware
+2. **Dual Boot**: Multiple operating systems on same device
+3. **Live Boot**: Temporary operation from USB drive
+4. **Cloud Terminal**: Remote Linux environment (e.g., webminal.org)
+5. **Virtual Machine**:
+   - Type 1 (Bare-metal): Direct hardware access (VMware ESXi, Proxmox)
+   - Type 2 (Hosted): Runs on host OS (VirtualBox, VMware Workstation)
+6. **WSL 2**: Windows Subsystem for Linux (terminal-only environment)
+
+---
+
