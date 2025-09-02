@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_Linux_tutore/Day_3(part 1) kali linux overview and linux commands.md",
+                "file": "5.cybersecurity/Day_2 Scanning and Enumeration(part1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Day_3(part 1) kali linux overview and linux commands"
+              "title": "Day_2 Scanning and Enumeration(part1)"
             }
           }
         ]
@@ -169,12 +169,18 @@
   },
   "active": "828f5d3d2f38cd58",
   "lastOpenFiles": [
+    "5.cybersecurity/Day_1 Reconnaissance(info-gathering)(part2).md",
+    "5.cybersecurity/Day_1 Reconnaissance(info-gathering)(part1).md",
+    "1_Linux_tutore/Day_3(part 1) kali linux overview and linux commands.md",
+    "1_Linux_tutore/Day_2 linux.md.md",
+    "1_Linux_tutore/Day_2 Introduction to cyber security.md",
+    "1_Linux_tutore/Day_3(part 2) linux commands and multiple  cmd excutions.md",
+    "1_Linux_tutore/Day_3 grep, sed and awk examples.md",
+    "1_Linux_tutore/Day_1 Introduction.md",
     "5.cybersecurity/Day_3 Malware Threats(part2).md",
     "5.cybersecurity/Day_8 Website security.md",
     "5.cybersecurity/Day_6 Network Hacking(part1).md",
     "5.cybersecurity/Day_3 Malware Threats(part1).md",
-    "5.cybersecurity/Day_1 Reconnaissance(info-gathering)(part2).md",
-    "5.cybersecurity/Day_1 Reconnaissance(info-gathering)(part1).md",
     "4_Networking_for_Hackers/Day_12 Introduction_to_Networking (part1).md",
     "4_Networking_for_Hackers/Day_12 Introduction_to_Networking (part2).md",
     "3_Bash_Programming/Day_11 Further on Bash(part2).md",
@@ -189,12 +195,6 @@
     "2_Python_for_Hackers/Day_7 Python Introduction (part2).md",
     "2_Python_for_Hackers/Day_7 Python Introduction (part1).md",
     "1_Linux_tutore/Day_6 Finishing on linux(part2).md",
-    "1_Linux_tutore/Day_6 Finishing on linux(part1).md",
-    "1_Linux_tutore/Day_5 Advanced linux for users(part2).md",
-    "1_Linux_tutore/Day_5 Advanced linux for users(part1).md",
-    "1_Linux_tutore/Day_4 More for linux and text editors(part2).md",
-    "1_Linux_tutore/Day_4 More for linux and text editors(part1).md",
-    "1_Linux_tutore/Day_3(part 2) linux commands and multiple  cmd excutions.md",
     "Pasted image 20250729013218.png",
     "Pasted image 20250729011352.png",
     "Pasted image 20250729003950.png",
